@@ -46,3 +46,7 @@ def find_a(array)
   end
   start_with_a
 end
+
+
+def sum_array(array)
+end
