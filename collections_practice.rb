@@ -49,4 +49,6 @@ end
 
 
 def sum_array(array)
+  array.inject { |result, element| result + element }
 end
+
