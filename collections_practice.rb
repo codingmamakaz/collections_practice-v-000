@@ -34,4 +34,15 @@ def kesha_maker(array)
   name.slice!(2)
   name.insert(2, "$")
   end
-end  
+end
+
+
+def find_a(array)
+  start_with_a = []
+  array.each do |word|
+   if word.start_with?("a")
+     start_with_a << word
+   end
+  end
+  start_with_a
+end
